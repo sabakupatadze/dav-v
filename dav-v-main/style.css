@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    background: url(starter-code/assets/home/background-home-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar {
+  background: rgba(255, 255, 255, 0.05); 
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(10px); 
+  color: white;
+  width: 750px;
+  text-align: center;
+  height: 50px;
+
+  
+
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+
+}
+.img1{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+}
+.line{
+    background-color: silver;
+    height: 2px ;
+    width: 900px;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 99;
+
+    
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div2{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+    
+}
+button{
+    border: none;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 650px;
+    margin-top: 400px;
+}
+.div3{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
