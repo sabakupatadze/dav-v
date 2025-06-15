@@ -1,11 +1,22 @@
 body{
     height: 100vh;
-    background: url(dav-v-main/starter-code/assets/destination/background-destination-desktop.jpg);
+    background: url(starter-code/assets/destination/background-destination-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
 .navbar {
   background: rgba(255, 255, 255, 0.05); 
   padding: 1rem 2rem;
@@ -68,15 +79,12 @@ h3{
     color: white;
     margin-bottom: 100px;
 }
-.div2{
-    
-}
-.div3{
-    
-    
-}
-p{
+
+       
+
+.p2{
     color: white;
+    
 }
 
 .main{
@@ -86,4 +94,44 @@ p{
     padding-top: 150px;
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.div4{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+h2{ 
+    color: white;
+    font-size: 100px;
+}
+.divline{
+    background-color: rgba(192, 192, 192, 0.692);
+    height: 1px;
+    width: 350px;
+    margin-top: 50px;
+}
+.div3{
+    margin-top: -150px;
+    margin-right: 150px;
+}
+.p1{
+    color: white;
+    
+}
+
+h2{
+    margin-top: -5px;
+}
+.p2{
+    margin-top: -60px;
+}
+.p3{
+    color: white;
+}
+.div6{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
