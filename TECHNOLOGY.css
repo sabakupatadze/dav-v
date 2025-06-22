@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background: url(starter-code/assets/crew/background-crew-desktop.jpg);
+    background: url(starter-code/assets/technology/background-technology-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,31 +69,78 @@ a{
     height: 40px;
     margin-left: 40px;
 }
-.p1{
-    color: white;
-}
-h3{
-    color: rgba(255, 255, 255, 0.692);
-}
-.div2{
-    display: flex;
-    gap: 10px;
-    margin-bottom: 100px;
-
-}
-.p2{
-    color: rgba(255, 255, 255, 0.616);
+.nav-item:hover{
+    text-decoration: underline;
+    
 
 }
 .middle{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+.p2{
+     color: rgba(255, 255, 255, 0.616);
 }
 .p4{
     color: white;
 }
-.p3{
+.div2{
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.p5{
+     color: rgba(255, 255, 255, 0.616);
+}
+h2{
     color: white;
-    font-size: 50px;
+}
+h3{
+     color: rgba(255, 255, 255, 0.616);
+}
+.div4{
+}
+.b1{
+    color: black;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 45px;
+}
+.b2{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 45px;
+}
+.b3{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 45px;
+}
+
+.something{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ss{
+    display: flex;
+    gap: 10px;
+}
+
+.sss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 200px;
 }
