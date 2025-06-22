@@ -12,7 +12,11 @@ a{
     text-decoration: none;
     color: white;
 }
+.nav-item:hover{
+    text-decoration: underline;
+    
 
+}
 
 
 
